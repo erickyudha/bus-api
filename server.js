@@ -11,13 +11,16 @@ const init = async () => {
             cors: {
                 origin: ['*'],
             },
+            files: {
+                relativeTo: Path.join(__dirname, 'public')
+            }
         },
     });
 
     server.route(routes);
-    await server.register({
-        plugin: require('vision')  // add template rendering support in hapi
-      })
+    await server.register(require('vision'));
+    await server.register(require('@hapi/inert'));
+
     server.views({
     engines: {
         html: Handlebars

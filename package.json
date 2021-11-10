@@ -18,6 +18,7 @@
   "homepage": "https://github.com/erickyudha/bus-api#readme",
   "dependencies": {
     "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
     "handlebars": "^4.7.7",
     "vision": "^5.4.4"
   },

@@ -8,9 +8,9 @@ const routes = [
   },
   {
       method: 'GET',
-      path: '/rdf',
+      path: '/example.rdf',
       handler: (req,h) => {
-        return h.view('eRDF')
+        return h.file('example.rdf')
       }
   },
 ];
