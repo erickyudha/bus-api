@@ -1,18 +1,18 @@
 const routes = [
   {
       method: 'GET',
-      path: '/doc',
+      path: '/rdf',
       handler: (req,h) => {
-        return h.view('doc')
+        return h.view('eRDF')
       }
   },
   {
-      method: 'GET',
-      path: '/example.rdf',
-      handler: (req,h) => {
-        return h.file('example.rdf')
-      }
-  },
+    method: 'GET',
+    path: '/ontology',
+    handler: (req,h) => {
+      return h.view('doc')
+    }
+},
 ];
 
 module.exports = routes;

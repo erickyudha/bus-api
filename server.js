@@ -3,6 +3,7 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./src/routes');
 const Handlebars = require('handlebars');
+const Path = require('path');
 
 const init = async () => {
     const server = Hapi.server({
