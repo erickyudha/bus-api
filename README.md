@@ -8,7 +8,7 @@ Made by using node.js web framework HAPI.
 ## Usage
 
 ### Rdf namespace documentation
-URI: https://bus-usu.herokuapp.com/ontology#
+URI: https://bus-usu.herokuapp.com/bus/ontology#
 
 ### Rdf example (eRDF)
 URI: https://bus-usu.herokuapp.com/rdf
