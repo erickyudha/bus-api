@@ -29,6 +29,13 @@ const routes = [
       return h.file('../public/img/example.svg')
     }
   },
+  {
+    method: 'GET',
+    path: '/public/img/logo.png',
+    handler: (req, h) => {
+      return h.file('../public/img/logo.png')
+    }
+  },
 ];
 
 module.exports = routes;
