@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cn-body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:
+  "sidebar content";
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  z-index: 10;
+  bottom: 0;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
+  border-right: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  grid-area: content;
+  margin-top: 20px;
+  padding: 0 50px;
+  margin-bottom: 65px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-body {
+  padding: 0;
+}
+.list-group-item {
+  width: 100%;
+}
+
+.list-group {
+  border-radius: 0;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+#getting-started h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+#getting-started h2 {
+  font-style: italic;
+  color: rgb(51, 50, 141);
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.info-snippet {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.info-snippet h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info-snippet p {
+  font-style: italic;
+}
+
+#lic {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+#abstract {
+  padding-bottom: 20px;
+}
+
+#doc-status {
+  padding-bottom: 20px;
+}
+
+#example {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+#listing {
+  padding: 20px;
+}
+
+#vocab p {
+  margin: 0;
+}
+
+.term-card {
+  margin: 15px 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+}
+
+h4 {
+  color: rgb(51, 50, 141);
+  font-style: italic;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.term-table {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-auto-rows: auto;
+  margin: 5px 20px 10px;
+}
+
+.term-title {
+  margin: 0;
+}
+
+.term-key {
+  font-weight: bold;
+}
+
+.term-value {
+  font-style: italic;
+}
+
+.term-desc h6 {
+  margin: 0;
+  font-style: italic;
+}
+
+.term-desc ul {
+  margin: 0;
+}
+

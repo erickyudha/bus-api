@@ -12,76 +12,314 @@
     <title>BUS Vocabulary Specification</title>
   </head>
   <body>
-    <div>
-      <h1>BUS Vocabulary Specification 1.0</h1>
-      <h2>Namespace Document 15 November 2021</h2>
-      <div>
-        <h3>Latest Version:</h3>
-        <p>http://bus-usu.herokuapp.com/bus/ontology#</p>
-        <h3>Authors:</h3>
-        <p>Erick Y, Rio FH, M Said A, Rizki I</p>
-      </div>
-      <div>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-        </a>
-        <br />This work is licensed under a 
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-      </div>
-    </div>
-    <div>
-      <div id="abstract">
-        <h2>Abstract</h2>
-        <p>
-          This specification describes the BUS language, defined as a dictionary of named properties and classes using W3C's RDF technology. <br> <br>
+    <div class="cn-body">
+      <div class="sidebar">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Getting Started
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body list-group">
+                <a href="#" class="list-group-item list-group-item-action">Introduction</a>
+                <a href="#abstract" class="list-group-item list-group-item-action">Abstract</a>
+                <a href="#doc-status" class="list-group-item list-group-item-action">Document status</a>
+                <a href="#example" class="list-group-item list-group-item-action">Example</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Class
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body list-group">
+                <a href="#Bus" class="list-group-item list-group-item-action">Bus</a>
+              </div>
+            </div>
+          </div>
 
-          BUS is a project devoted to information about properties of bus and it's operational routes using the Web. 
-          Regardless of whether information is in people's heads, in physical or digital documents, or in the form of factual data, it can be linked.
-          BUS does not compete with other travel booking and information Web sites; rather it provides 
-          a simple approach in which different sites can tell basic parts about bus and it's routes.</p>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Properties
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body list-group">
+                <a href="#class" class="list-group-item list-group-item-action">class</a>
+                <a href="#facility" class="list-group-item list-group-item-action">facility</a>
+                <a href="#rFrom" class="list-group-item list-group-item-action">rFrom</a>
+                <a href="#rTo" class="list-group-item list-group-item-action">rTo</a>
+                <a href="#price" class="list-group-item list-group-item-action">price</a>
+                <a href="#agName" class="list-group-item list-group-item-action">agName</a>
+                <a href="#agTelp" class="list-group-item list-group-item-action">agTelp</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </div>
-      <div id="status">
-        <h2>Status of This Document</h2>
-        <p>
-          The BUS specification is produced as part of the BUS-USU project creation in
-          November-2021. The properties inside will not be changed as this is only a simple
-          project (and possibly one time use). The BUS RDF namespace URI is fixed and 
-          its identifier is not expected to change. But even if the RDF namespace URI is fixed,
-          keep in mind that there is a possibility of us taking down this URI if it is no
-          longer needed.
-        </p>
-      </div>
-    </div>
-    <div>
-      <h2>BUS Vocabulary Terms</h2>
-      <p>This is a complete index of all BUS class and property terms</p>
-      <div id="example">
-        <h3>Example</h3>
-        <p>Here is a basic document describing a bus</p>
-        <img src="/public/img/example.svg" alt="" width="400px">
-      </div>
-      <div id="listing">
-        <h3>BUS cross-reference: Listing BUS Class and Properties</h3>
-        <div id="class">
-          <h4>Class</h4>
-          <div class="term-card">
-            <h5 class="term-title">Class: bus:Bus</h5>
-            <p><i>Bus</i> - A bus</p>
-            <div class="term-key">Status:</div>
-            <div class="term-value">stable</div>
-            <div class="term-key">Properties:</div>
-            <div class="term-value">
-              <!--TODO: INSERT ALL PROPERTY TERM-->
+  
+      <div class="content">
+        <div id="getting-started">
+          <h1>BUS Vocabulary Specification 1.0</h1>
+          <h2>Namespace Document 15 November 2021</h2>
+          <div class="info-snippet">
+            <h3>Latest Version:</h3>
+            <p>http://bus-usu.herokuapp.com/bus/ontology#</p>
+            <h3>Default Prefix:</h3>
+            <p>bus</p>
+            <h3>Contributors:</h3>
+            <p>Erick Y, Rio FH, M Said A, Rizki I</p>
+          </div>
+          <div id="lic">
+            Copyright (c) 2021 Erick Yudha Pratama Sukku
+            <br> This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+          </div>
+        </div>
+        <div>
+          <div id="abstract">
+            <h2>Abstract</h2>
+            <p>
+              This specification describes the BUS language, defined as a dictionary of named properties and classes using W3C's RDF technology. <br>
+              BUS is a project devoted to information about properties of bus and its operational routes using the Web. 
+              Regardless of whether information is in people's heads, in physical or digital documents, or in the form of factual data, it can be linked.
+              BUS does not compete with other travel booking and information Web sites; rather it provides 
+              a simple approach in which different sites can tell basic parts about bus and its routes.</p>
+          </div>
+          <div id="doc-status">
+            <h2>Status of This Document</h2>
+            <p>
+              The BUS specification is produced as part of the BUS-USU project creation in
+              November-2021. The properties inside will not be changed as this is only a simple
+              project (and possibly only one time use). The BUS RDF namespace URI is fixed and 
+              its identifier is not expected to change. But even if the RDF namespace URI is fixed,
+              keep in mind that there is a possibility of us taking down this URI if it is no
+              longer needed.
+            </p>
+          </div>
+          <div id="example">
+            <h3>Example</h3>
+            <p>Here is a basic document describing a bus</p>
+            <img src="/public/img/example.svg" alt="" width="400px">
+          </div>
+        </div>
+        <div id="vocab">
+          <h2>BUS Vocabulary Terms</h2>
+          <p>This is a complete index of all BUS class and property terms</p>
+          
+          <div id="listing">
+            <div id="classes">
+              <h4>Class</h4>
+    
+              <div class="term-card" id="Bus">
+                <h5 class="term-title">Class: bus:Bus</h5>
+                <p><i>Bus</i> - A bus</p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Properties:</div>
+                  <div class="term-value">
+                    <a href="#class">class</a>
+                    <a href="#facility">facility</a>
+                    <a href="#rFrom">rFrom</a>
+                    <a href="#rTo">rTo</a>
+                    <a href="#price">price</a>
+                    <a href="#agName">agName</a>
+                    <a href="#agTelp">agTelp</a>
+                  </div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The class of <a href="#Bus">Bus</a> is a class of busses. This is the base and
+                    the only class in BUS namespace. Class <a href="#Bus">Bus</a> is used to
+                    represent a commercial bus with its basic information 
+                    (ex: ticket price, route, facility, etc.) as this class properties.
+                  </p>
+                </div>
+              </div>
+    
+              <h4>Properties</h4>
+    
+              <div class="term-card" id="class">
+                <h5 class="term-title">Property: bus:class</h5>
+                <p><i>class</i> - price classification of a <a href="#Bus">Bus</a></p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#class">class</a> property relates a <a href="#Bus">Bus</a> to its price classification. <br>
+                    For example, a <a href="#Bus">Bus</a> class can be "Executive", "Economy", etc.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="facility">
+                <h5 class="term-title">Property: bus:facility</h5>
+                <p><i>facility</i> - list of facilities in a <a href="#Bus">Bus</a></p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#facility">facility</a> property relates a <a href="#Bus">Bus</a> 
+                    to its facilities. <br>
+                    Multiple facilities is written in one <b>String</b> separated by a comma ','. <br>
+                    For example, if a <a href="#Bus">Bus</a> facilities includes:
+                    <ul>
+                      <li>AC</li>
+                      <li>Toilet</li>
+                      <li>Small TV</li>
+                    </ul>
+                    Then, the value of this property is written as "AC, Toilet, Small TV".
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="rFrom">
+                <h5 class="term-title">Property: bus:rFrom</h5>
+                <p><i>rFrom</i> -  route from, route starting point of a <a href="#Bus">Bus</a></p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#rFrom">rFrom</a> property relates a <a href="#Bus">Bus</a> 
+                    to its route starting point. <br>
+                    The route starting point by default is a city name but can be changed as needed.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="rTo">
+                <h5 class="term-title">Property: bus:rTo</h5>
+                <p><i>rTo</i> -  route from, route destination point of a <a href="#Bus">Bus</a></p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#rTo">rTo</a> property relates a <a href="#Bus">Bus</a> 
+                    to its route destination point. <br>
+                    The route destination point by default is a city name but can be changed as needed.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="price">
+                <h5 class="term-title">Property: bus:price</h5>
+                <p><i>price</i> -  the ticket price for a <a href="#Bus">Bus</a></p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#price">price</a> property relates a <a href="#Bus">Bus</a>
+                    to its one-way ticket price. <br>
+                    The value of this property is defined as <b>String</b> for simplicity reasons
+                    and flexibility format.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="agName">
+                <h5 class="term-title">Property: bus:agName</h5>
+                <p><i>agName</i> -  name of a <a href="#Bus">Bus</a> agent</p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#agName">agName</a> property relates a <a href="#Bus">Bus</a>
+                    to the name of agent that sells this bus ticket. <br>
+                    The value of this property is an entity (ex: person, company, etc) name.
+                  </p>
+                </div>
+              </div>
+    
+              <div class="term-card" id="agTelp">
+                <h5 class="term-title">Property: bus:agTelp</h5>
+                <p><i>agTelp</i> -  telephone number of a <a href="#Bus">Bus</a> agent</p>
+                <div class="term-table">
+                  <div class="term-key">Status:</div>
+                  <div class="term-value">stable</div>
+                  <div class="term-key">Domain:</div>
+                  <div class="term-value">having this property implies being a <a href="#Bus">Bus</a></div>
+                  <div class="term-key">Range:</div>
+                  <div class="term-value">every value of this property is a <b>String</b></div>
+                </div>
+                <div class="term-desc">
+                  <h6>Description</h6>
+                  <p>
+                    The <a href="#agTelp">agTelp</a> property relates a <a href="#Bus">Bus</a>
+                    to the phone number of agent that sells this bus ticket.
+                  </p>
+                </div>
+              </div>
+    
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
+    
 
-    <footer>
-    </footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bus</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <div class="nav-link">Namespace Vocabulary Specification Document</div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
 
 
