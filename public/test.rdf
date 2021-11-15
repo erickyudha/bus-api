@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:bus="http://bus-usu.herokuapp.com/bus/ontology#">
+
+<bus:Bus>
+  <bus:class>Eksekutif</bus:class>
+  <bus:facility>AC, Toilet</bus:facility>
+  <bus:rFrom>Jakarta</bus:rFrom>
+  <bus:rTo>Denpasar</bus:rTo>
+  <bus:price>620000</bus:price>
+  <bus:agName>Lorena</bus:agName>
+  <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+</rdf:RDF>

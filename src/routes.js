@@ -1,3 +1,5 @@
+const path = require('path');
+
 const routes = [
   {
       method: 'GET',
@@ -8,11 +10,25 @@ const routes = [
   },
   {
     method: 'GET',
-    path: '/ontology',
+    path: '/bus/ontology',
     handler: (req,h) => {
       return h.view('doc')
     }
-},
+  },
+  {
+    method: 'GET',
+    path: '/public/css/doc.css',
+    handler: (req, h) => {
+      return h.file('../public/css/doc.css')
+    }
+  },
+  {
+    method: 'GET',
+    path: '/public/img/example.svg',
+    handler: (req, h) => {
+      return h.file('../public/img/example.svg')
+    }
+  },
 ];
 
 module.exports = routes;
