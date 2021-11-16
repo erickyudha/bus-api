@@ -36,6 +36,13 @@ const routes = [
       return h.file('../public/img/logo.png')
     }
   },
+  {
+    method: 'GET',
+    path: '/public/bus.rdf',
+    handler: (req, h) => {
+      return h.file('../public/bus.rdf')
+    }
+  },
 ];
 
 module.exports = routes;

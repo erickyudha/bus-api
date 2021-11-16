@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:bus="http://bus-usu.herokuapp.com/bus/ontology#">
+
+<bus:Bus>
+  <bus:class>Executive</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Prasmanan, Bantal dan Selimut, Reclining Seat, TV, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Jakarta</bus:rTo>
+  <bus:price>580000</bus:price>
+  <bus:agName>MedanJaya</bus:agName>
+  <bus:agTelp>061-8213241</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+  <bus:class>Super Executive</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Prasmanan, Bantal dan Selimut, Rest Food, Smoking Area, Reclining Seat, TV, Musik, Video Karaoke</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Pekan Baru</bus:rTo>
+  <bus:price>250000</bus:price>
+  <bus:agName>MedanJaya</bus:agName>
+  <bus:agTelp>061-7869908</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Ekonomi</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Reclining Seat</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Tangerang</bus:rTo>
+  <bus:price>430000</bus:price>
+  <bus:agName>MedanJaya</bus:agName>
+  <bus:agTelp>061-7880724</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Super Executive</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Bantal dan Selimut, Rest Food, Smoking Area, Reclining Seat, TV, Musik, Video Karaoke</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Aceh</bus:rTo>
+  <bus:price>180000</bus:price>
+  <bus:agName>SempatiStar</bus:agName>
+  <bus:agTelp>061-8451675</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+  <bus:class>Eksekutif</bus:class>
+  <bus:facility>AC, Reclining Seat, Toilet</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Pekan Baru</bus:rTo>
+  <bus:price>210000</bus:price>
+  <bus:agName>Rapi</bus:agName>
+  <bus:agTelp>0812-7572-4506</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+  <bus:class>Ekonomi</bus:class>
+  <bus:facility>AC, Reclining Seat, Air Mineral, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Dumai</bus:rTo>
+  <bus:price>145000</bus:price>
+  <bus:agName>Rapi</bus:agName>
+  <bus:agTelp>061-8827033</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Ekonomi</bus:class>
+  <bus:facility>AC, Reclining Seat, Air Mineral, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Bukit Tinggi</bus:rTo>
+  <bus:price>185000</bus:price>
+  <bus:agName>ALS</bus:agName>
+  <bus:agTelp>061-8827033</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Ekonomi</bus:class>
+  <bus:facility>AC, Reclining Seat, Air Mineral, Musik, Toilet</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Palembang</bus:rTo>
+  <bus:price>380000</bus:price>
+  <bus:agName>ALS</bus:agName>
+  <bus:agTelp>061-8827033</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+  <bus:class>Super Eksekutif</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Bantal dan selimut, Rest Foot, Reclining Seat, TV, Musik, Video Karaoke</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Padang</bus:rTo>
+  <bus:price>295000</bus:price>
+  <bus:agName>Linsum</bus:agName>
+  <bus:agTelp>(021) 1401055</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+  <bus:class>Eksekutif</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Bantal dan selimut, Reclining Seat, TV, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Aceh</bus:rTo>
+  <bus:price>250000</bus:price>
+  <bus:agName>Linsum</bus:agName>
+  <bus:agTelp>(021) 1401055</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Super Ekonomi</bus:class>
+  <bus:facility>AC, Toilet, Air Mineral, Reclining Seat, TV, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Padang</bus:rTo>
+  <bus:price>190000</bus:price>
+  <bus:agName>Linsum</bus:agName>
+  <bus:agTelp>(021) 1401055</bus:agTelp>
+</bus:Bus>
+    
+<bus:Bus>
+  <bus:class>Ekonomi</bus:class>
+  <bus:facility>AC, Air Mineral,  Reclining Seat, TV, Musik</bus:facility>
+  <bus:rFrom>Medan</bus:rFrom>
+  <bus:rTo>Aceh</bus:rTo>
+  <bus:price>135000</bus:price>
+  <bus:agName>Linsum</bus:agName>
+  <bus:agTelp>(021) 1401055</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Bisnis</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Purwodadi</bus:rTo>
+   <bus:price>120000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Prabumilih</bus:rTo>
+   <bus:price>285000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Prabumilih</bus:rTo>
+   <bus:price>325000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Palembang</bus:rTo>
+   <bus:price>285000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Palembang</bus:rTo>
+   <bus:price>325000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Bisnis</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Blora</bus:rTo>
+   <bus:price>130000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Blora</bus:rTo>
+   <bus:price>230000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Bisnis</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Cepu</bus:rTo>
+   <bus:price>140000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Cepu</bus:rTo>
+   <bus:price>245000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Yogyakarta</bus:rTo>
+   <bus:price>210000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Yogyakarta</bus:rTo>
+   <bus:price>235000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Solo</bus:rTo>
+   <bus:price>220000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Solo</bus:rTo>
+   <bus:price>240000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Madiun</bus:rTo>
+   <bus:price>230000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Madiun</bus:rTo>
+   <bus:price>260000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Ponorogo</bus:rTo>
+   <bus:price>230000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Ponorogo</bus:rTo>
+   <bus:price>265000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Kediri</bus:rTo>
+   <bus:price>275000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Kediri</bus:rTo>
+   <bus:price>290000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Blitar</bus:rTo>
+   <bus:price>290000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Blitar</bus:rTo>
+   <bus:price>300000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Jambi</bus:rTo>
+   <bus:price>375000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Jambi</bus:rTo>
+   <bus:price>410000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Muarabungo</bus:rTo>
+   <bus:price>395000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Muarabungo</bus:rTo>
+   <bus:price>420000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Palembang</bus:rTo>
+   <bus:price>280000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Palembang</bus:rTo>
+   <bus:price>325000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Solok</bus:rTo>
+   <bus:price>405000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Solok</bus:rTo>
+   <bus:price>435000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Padang</bus:rTo>
+   <bus:price>410000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Padang</bus:rTo>
+   <bus:price>440000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Pekanbaru</bus:rTo>
+   <bus:price>435000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Pekanbaru</bus:rTo>
+   <bus:price>475000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Surabaya</bus:rTo>
+   <bus:price>305000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Malang</bus:rTo>
+   <bus:price>315000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Probolinggo</bus:rTo>
+   <bus:price>340000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Jember</bus:rTo>
+   <bus:price>360000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Banyuwangi</bus:rTo>
+   <bus:price>385000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>Eksekutif</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Selimut, Toilet, Smoking Area</bus:facility>
+   <bus:rFrom>Jakarta</bus:rFrom>
+   <bus:rTo>Denpasar</bus:rTo>
+   <bus:price>455000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+<bus:Bus>
+   <bus:class>VIP</bus:class>
+   <bus:facility>AC, TV/DVD, GPS, Reclining Seat, Selimut, Toilet</bus:facility>
+   <bus:rFrom>Bandung</bus:rFrom>
+   <bus:rTo>Pekanbaru</bus:rTo>
+   <bus:price>435000</bus:price>
+   <bus:agName>Lorena</bus:agName>
+   <bus:agTelp>(021) 7506655</bus:agTelp>
+</bus:Bus>
+
+</rdf:RDF>
